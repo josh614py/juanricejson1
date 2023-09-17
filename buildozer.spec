@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = Juan Rice
 
 # (str) Package name
-package.name = myapp
+package.name = Juanriceapp
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -13,7 +13,7 @@ package.domain = org.test
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas, ttf
+source.include_exts = py,png,jpg,kv,atlas,ttf,txt
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements =  python3==3.7.6,hostpython3==3.7.6, kivy, pillow
+requirements =  python,kivy,pillow,kivymd,matplotlib,kivy-garden,firebase-admin,plyer
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
